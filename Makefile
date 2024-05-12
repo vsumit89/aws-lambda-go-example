@@ -11,7 +11,7 @@ GOGET = $(GOCMD) get
 BINARY_NAME = bootstrap
 
 # Main package path
-MAIN_PATH = ./cmd/main.go
+MAIN_PATH = main.go
 
 all: clean test build
 

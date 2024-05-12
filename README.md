@@ -35,7 +35,7 @@ Ensure you have the following installed:
 
 ### Project Structure
 
-- **`cmd/main.go`**: Contains the Lambda function code.
+- **`main.go`**: Contains the Lambda function code.
 - **`template.yaml`**: AWS SAM template file defining the Lambda function.
 
 ### Commands
@@ -53,7 +53,6 @@ make invoke-lambda
 
 ### Additional Notes
 
-- Customize the `cmd/main.go` file to define your Lambda function logic.
+- Customize the `main.go` file to define your Lambda function logic.
 - Update the `template.yaml` file to configure AWS Lambda resources and event triggers.
 
-Feel free to extend this example for your AWS Lambda projects. If you encounter any issues or have questions, please create an issue in the repository.
