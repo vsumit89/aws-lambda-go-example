@@ -21,6 +21,11 @@ build:
 test:
 	$(GOTEST) -v ./...
 
+
+deps:
+	${GOCMD} mod tidy
+
+
 clean:
 	$(GOCLEAN)
 	rm -f $(BINARY_NAME)
